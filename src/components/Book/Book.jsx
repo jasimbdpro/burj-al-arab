@@ -19,6 +19,7 @@ const Book = () => {
     const [value, setValue] = useState(dayjs('2022-04-17'));
 
     const { bedType } = useParams();
+    // eslint-disable-next-line no-unused-vars
     const [loggedInUser, setLoggedInUser] = useContext(UserContext)
     rooms.find(i => i.bedType === rooms.bedType)
     return (
